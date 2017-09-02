@@ -1,7 +1,7 @@
 > 写写代码，做做设计，  
 > 离开世界之前，一切都是过程。
 
-Hey，我是杨红星，病毒种，进化程度不明，多出没于[博客](https://yhx123.github.io)、[微博](weibo.com/)、[知乎](https://www.zhihu.com/people/7145653@qq.com/pins/posts)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
+Hey，我是杨红星，病毒种，进化程度不明，多出没于[博客](https://yhx123.github.io)、[微博](weibo.com/)、[知乎](https://www.zhihu.com/people/zhao-sheng-mu-si-15/activities)、[Twitter](https://twitter.com/Huxpro/)、[Github](http://github.com/huxpro)、[Medium](https://medium.com/@Huxpro) 等地带，绝招尚在开发中。
 
 职业是软件工程师.
 
