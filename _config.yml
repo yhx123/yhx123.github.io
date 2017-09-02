@@ -2,21 +2,21 @@
 title: redstar Blog
 SEOTitle: 杨红星的博客 | redstar Blog
 header-img: img/home-bg.jpg
-email: yhx0429@gmail.com
-description: "关于前端与设计、黑客与画家 | 杨红星，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @redstar杨红星 的个人博客，与你一起发现更大的世界。"
-keyword: "杨红星, redstar杨红星, redstar, 鬼栈, redstarpro, @redstarpro, 杨红星的博客, redstar Blog, 博客, 个人网站, 互联网, 后端, 设计, 产品"
-url: "https://yhx123.github.io"              # your host, for absolute URL
+email: yhx123@gmail.com
+description: "关于前端与设计、黑客与画家 | 杨红星，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "杨红星, redstar, 杨红星, 鬼栈, 杨红星的博客, redstar Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品,"
+url: "https://yhx123.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     早就看出来啦
-#zhihu_username:     yhx
+weibo_username:     yanghongxing0429@sina.cn
+zhihu_username:     714565396@qq.com
 github_username:    yhx123
-#twitter_username:   redstarpro
-#facebook_username:  redstarpro
+#twitter_username:   huxpro
+#facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -48,7 +48,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: redstar
+#disqus_username: hux
 
 # Netease setttings
 netease_comment: false
@@ -68,7 +68,7 @@ ga_domain: yhx123.github.io
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-redstar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
