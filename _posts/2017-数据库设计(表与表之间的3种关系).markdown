@@ -1,4 +1,16 @@
-数据库设计(表与表之间的3种关系)
+---
+layout:     post
+title:      "数据库设计(表与表之间的3种关系)"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2017-09-2
+author:     "redstar"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 测试
+---
+
+
 
 表与表之间一般存在三种关系，即一对一，一对多，多对多关系。 
 下面分别就三种关系讲解数据库相关设计的思路和思考过程；
