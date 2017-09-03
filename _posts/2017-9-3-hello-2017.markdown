@@ -7,7 +7,7 @@ author:     "redstar"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 测试
+    - 生活
 ---
 
 
