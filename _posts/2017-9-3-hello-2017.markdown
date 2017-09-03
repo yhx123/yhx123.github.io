@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "数据库设计(表与表之间的3种关系)"
-subtitle:   " \"Hello World, Hello Blog\""
+subtitle:   " \"数据库我来了\""
 date:       2017-09-2
 author:     "redstar"
 header-img: "img/post-bg-2015.jpg"
