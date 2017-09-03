@@ -5,8 +5,7 @@ Hey，我是杨红星，病毒种，进化程度不明，多出没于[博客](ht
 
 职业是软件工程师.
 
-一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/yhx123)、[演说.io](http://https://zhuanlan.zhihu.com/
-)。 
+一些作品和开源软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/yhx123)、[演说.io](https://www.zhihu.com/people/zhao-sheng-mu-si-15/activities)。 
 
 
 ##### Talks
