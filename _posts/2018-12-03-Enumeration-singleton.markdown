@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      "枚举实现单例模式"
+subtitle:   " \设计模式之单例模式\""
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
+
 #### 枚举实现单例模式
 前面我们说到序列化和反序列化以及反射对单例都是有破坏的，下面我们介绍一种更加优雅的实现，也是effective java中推荐的实现方式，枚举实现单例模式。话不多说我们直接看代码吧。
 

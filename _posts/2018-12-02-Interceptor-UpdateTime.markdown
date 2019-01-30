@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      "mybatis Intercepts插件的使用"
+subtitle:   " \mybatis Intercepts\""
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - mybatis
+---
+
+
+
 > 一般数据库的表结构都会有update_time，修改时间，因为这个字段基本与业务没有太大关联，因此开发过程中经常会忘记设置这两个字段的值，本插件就是来解决这个问题。同样的想生成id，create_time等操作都是可以以同样的方式解决。想折腾的同学还可以通过这中方式自己写个分页插件。闲话少说上代码。
 
 
