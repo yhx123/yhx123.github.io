@@ -5,5 +5,5 @@ Hey，我是杨红星，进化程度不明，多出没于[博客](https://yhx123
 
 职业是软件工程师.
 
-一些作品和软件项目，👉 戳 [Portfolio](/portfolio)、[Github](http://github.com/yhx123)、[演说.io](https://www.zhihu.com/people/zhao-sheng-mu-si-15/activities)。 
+一些作品和软件项目，👉 戳 [Github](http://github.com/yhx123)、[演说.io](https://www.zhihu.com/people/zhao-sheng-mu-si-15/activities)。 
 
