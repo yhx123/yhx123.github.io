@@ -1,18 +1,18 @@
  ---
- layout:     post
- title:      " java虚拟机的结构 "
- subtitle:   " java "
- date:       2019-01-9 12:00:00
- author:     "redstar"
- header-img: ""
- tags:
-     - java
-     - jvm
+     layout:     post
+     title:      " java虚拟机的结构 "
+     subtitle:   " java "
+     date:       2019-01-9 12:00:00
+     author:     "redstar"
+     header-img: ""
+     tags:
+         - java
+         - jvm
  ---
 
 
-#### java虚拟机
-##### java虚拟机的结构
+#### java虚拟机的结构
+
 1. 类加载子系统
 > 	负责从文件系统或网络中加载class信息，加载的信息存放的一块称为方法区的内存空间。除了类信息，方法区还存放运行时常量池信息。（这部分的信息是Class文件中的常量池部分的内存映射）
 2. java堆
