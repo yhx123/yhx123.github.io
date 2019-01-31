@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      " 组合模式 "
+subtitle:   " 设计模式之组合模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
+
 #### 组合模式
 ##### 定义
 1. 将对象组合成树形结构以表示“部分-整体”的层次结构。

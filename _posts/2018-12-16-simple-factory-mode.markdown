@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      " 简单工厂 "
+subtitle:   " 设计模式之工厂模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
+
 #### 简单工厂
 ##### 定义
 > 用一个工厂对象决定创建哪一种产品的实例。

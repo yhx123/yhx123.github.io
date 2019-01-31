@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      " 装饰者模式 "
+subtitle:   " 设计模式之装饰者模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
 #### 装饰者模式
 ##### 定义
 在不改变原有对象的基础之上，将功能附加到对象上。提供了比继承更有弹性的替代方案（扩展原有对象功能）

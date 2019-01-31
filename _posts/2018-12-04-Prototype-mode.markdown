@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      " 原型模式 "
+subtitle:   " 设计模式之原型模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
 #### 原型模式
 
 ##### 定义

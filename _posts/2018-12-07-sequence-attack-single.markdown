@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      " 序列化和反序列化对单例破坏 "
+subtitle:   " 设计模式之原型模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
 首先我们来看一下序列化和反序列化是怎么破坏单例的。看代码
 
 ```java

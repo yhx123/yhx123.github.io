@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      " 单例模式 "
+subtitle:   " 设计模式之单例模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
+
 ### 设计模式之单例模式
 
 #### 定义

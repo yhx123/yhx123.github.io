@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      " 反射对单例模式的破坏 "
+subtitle:   " 设计模式之单例模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
 #### 反射对单例模式的破坏
 
 首先我们依旧是使用饿汉式作为测试。我们把之前写的饿汉式的代码贴上来。

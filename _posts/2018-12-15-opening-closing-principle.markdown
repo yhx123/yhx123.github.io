@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      " 开闭原则 "
+subtitle:   " 软件开发原则之开闭原则 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
 #### 开闭原则
 
 ##### 定义

@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      " 适配器模式 "
+subtitle:   " 设计模式之适配器模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
+
 #### 适配器模式
 ##### 定义
 1. 将一个接口转换成客户期望的另一个接口。这里的接口可以指一个接口也可以是一个类，一个方法。

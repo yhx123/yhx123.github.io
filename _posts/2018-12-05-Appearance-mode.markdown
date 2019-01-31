@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      " 外观模式 "
+subtitle:   " 设计模式之外观模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
 #### 外观模式
 ##### 定义
 又叫门面模式，提供了一个统一的接口，用来访问子系统中的一群接口。定义了一个高层接口，让子系统更容易使用。

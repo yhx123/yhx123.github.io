@@ -1,4 +1,13 @@
-
+---
+layout:     post
+title:      " 容器单例 "
+subtitle:   " 设计模式之单例模式 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
 ##### 容器单例
 我们先看代码吧
 ```java

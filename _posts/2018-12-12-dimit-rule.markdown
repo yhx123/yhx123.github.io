@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      " 迪米特法则 "
+subtitle:   " 软件开发原则之迪米特法则 "
+date:       2019-01-9 12:00:00
+author:     "redstar"
+header-img: ""
+tags:
+    - Design Patterns
+---
+
+
+
 #### 迪米特法则
 ##### 定义
 > 一个对象应该对其他对象保持最少的了解。又叫最少知道原则。

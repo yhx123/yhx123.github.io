@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      " 枚举实现单例模式 "
-subtitle:   " 设计模式之单例模式"
+subtitle:   " 设计模式之单例模式 "
 date:       2019-01-9 12:00:00
 author:     "redstar"
 header-img: ""
