@@ -1,4 +1,4 @@
- ---
+---
 layout:     post
 title:      " java虚拟机的结构 "
 subtitle:   " java "
@@ -8,7 +8,7 @@ header-img: ""
 tags:
  - java
  - jvm
- ---
+---
 
 
 #### java虚拟机的结构

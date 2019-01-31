@@ -1,4 +1,4 @@
- ---
+---
 layout:     post
 title:      " java8流的操作机制 "
 subtitle:   " java8 "
@@ -6,8 +6,8 @@ date:       2019-01-9 12:00:00
 author:     "redstar"
 header-img: ""
 tags:
-- java
- ---
+ - java
+---
  
  #### java8流的操作机制
  ##### 特点
