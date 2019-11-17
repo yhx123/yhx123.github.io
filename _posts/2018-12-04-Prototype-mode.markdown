@@ -3,7 +3,7 @@ layout:     post
 title:      " 原型模式 "
 subtitle:   " 设计模式之原型模式 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - Design Patterns
@@ -109,7 +109,7 @@ public class PrototypeTest {
         for(int i = 0;i < 10;i++){
             Mail mailTemp = (Mail) mail.clone();
             mailTemp.setName("姓名"+i);
-            mailTemp.setEmailAddress("姓名"+i+"@redstar.com");
+            mailTemp.setEmailAddress("姓名"+i+"@Honson.com");
             mailTemp.setContent("恭喜您，你中奖了");
             MailUtil.sendMail(mailTemp);
             System.out.println("克隆的mailTemp:"+mailTemp);
@@ -121,22 +121,22 @@ public class PrototypeTest {
 然后我们看看测试类运行结果。
 
 ```java
-克隆的mailTemp:Mail{name='姓名4', emailAddress='姓名4@redstar.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@312b1dae
+克隆的mailTemp:Mail{name='姓名4', emailAddress='姓名4@Honson.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@312b1dae
 clone mail object
-向姓名5同学,邮件地址:姓名5@redstar.com,邮件内容:恭喜您，你中奖了发送邮件成功
-克隆的mailTemp:Mail{name='姓名5', emailAddress='姓名5@redstar.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@7530d0a
+向姓名5同学,邮件地址:姓名5@Honson.com,邮件内容:恭喜您，你中奖了发送邮件成功
+克隆的mailTemp:Mail{name='姓名5', emailAddress='姓名5@Honson.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@7530d0a
 clone mail object
-向姓名6同学,邮件地址:姓名6@redstar.com,邮件内容:恭喜您，你中奖了发送邮件成功
-克隆的mailTemp:Mail{name='姓名6', emailAddress='姓名6@redstar.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@27bc2616
+向姓名6同学,邮件地址:姓名6@Honson.com,邮件内容:恭喜您，你中奖了发送邮件成功
+克隆的mailTemp:Mail{name='姓名6', emailAddress='姓名6@Honson.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@27bc2616
 clone mail object
-向姓名7同学,邮件地址:姓名7@redstar.com,邮件内容:恭喜您，你中奖了发送邮件成功
-克隆的mailTemp:Mail{name='姓名7', emailAddress='姓名7@redstar.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@3941a79c
+向姓名7同学,邮件地址:姓名7@Honson.com,邮件内容:恭喜您，你中奖了发送邮件成功
+克隆的mailTemp:Mail{name='姓名7', emailAddress='姓名7@Honson.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@3941a79c
 clone mail object
-向姓名8同学,邮件地址:姓名8@redstar.com,邮件内容:恭喜您，你中奖了发送邮件成功
-克隆的mailTemp:Mail{name='姓名8', emailAddress='姓名8@redstar.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@506e1b77
+向姓名8同学,邮件地址:姓名8@Honson.com,邮件内容:恭喜您，你中奖了发送邮件成功
+克隆的mailTemp:Mail{name='姓名8', emailAddress='姓名8@Honson.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@506e1b77
 clone mail object
-向姓名9同学,邮件地址:姓名9@redstar.com,邮件内容:恭喜您，你中奖了发送邮件成功
-克隆的mailTemp:Mail{name='姓名9', emailAddress='姓名9@redstar.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@4fca772d
+向姓名9同学,邮件地址:姓名9@Honson.com,邮件内容:恭喜您，你中奖了发送邮件成功
+克隆的mailTemp:Mail{name='姓名9', emailAddress='姓名9@Honson.com', content='恭喜您，你中奖了'}com.design.pattern.creational.prototype.Mail@4fca772d
 存储originMail记录,originMail:初始化模板
 ```
 注意看打印结果的内存地址，他们打印的地址是不一样的，他们不是同一个对象。使用clone方式操作的是内存中的二进制文件，比直接new一个对象性能好的多。

@@ -3,7 +3,7 @@ layout:     post
 title:      " 枚举实现单例模式 "
 subtitle:   " 设计模式之单例模式 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - Design Patterns
@@ -18,7 +18,7 @@ tags:
 public enum EnumInstance {
     INSTANCE{
         protected  void printTest(){
-            System.out.println("redstar Print SingletonTest");
+            System.out.println("Honson Print SingletonTest");
         }
     };
     protected abstract void printTest();
@@ -68,7 +68,7 @@ public class SingletonTest {
         Class objectClass = EnumInstance.class;
         Constructor constructor = objectClass.getDeclaredConstructor(String.class,int.class);
         constructor.setAccessible(true);
-        EnumInstance instance = (EnumInstance) constructor.newInstance("redstar",666);
+        EnumInstance instance = (EnumInstance) constructor.newInstance("Honson",666);
 }
 ```
 运行结果报异常

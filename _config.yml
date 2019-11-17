@@ -1,10 +1,10 @@
 # Site settings
-title: redstar Blog
-SEOTitle: 杨红星的博客 | redstar Blog
+title: Honson Blog
+SEOTitle: 杨红星的博客 | Honson Blog
 header-img: img/home-bg.jpg
 email: yhx123@gmail.com
-description: "关于java与后台 | 杨红星，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @redstar 杨红星的个人博客，与你一起发现更大的世界。"
-keyword: "杨红星, redstar, 杨红星, 鬼栈, 杨红星的博客, redstar Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品,"
+description: "关于java与后台 | 杨红星，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Honson 杨红星的个人博客，与你一起发现更大的世界。"
+keyword: "杨红星, Honson, 杨红星, 鬼栈, 杨红星的博客, Honson Blog, 博客, 个人网站, 互联网, 前端, 产品,"
 url: "https://yhx123.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 

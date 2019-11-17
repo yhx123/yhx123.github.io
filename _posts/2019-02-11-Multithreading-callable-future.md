@@ -3,7 +3,7 @@ layout:     post
 title:      " Java多线程-Callable和Future "
 subtitle:   " java  Callable和Future使用 "
 date:       2019-02-11 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
  - java

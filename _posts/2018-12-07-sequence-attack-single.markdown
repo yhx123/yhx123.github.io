@@ -3,7 +3,7 @@ layout:     post
 title:      " 序列化和反序列化对单例破坏 "
 subtitle:   " 设计模式之原型模式 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - Design Patterns

@@ -3,7 +3,7 @@ layout:     post
 title:      " 开闭原则 "
 subtitle:   " 软件开发原则之开闭原则 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - Design Patterns
@@ -38,13 +38,13 @@ tags:
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class Redstar {
+public class Honson {
     public void studyJava() {
-        System.out.println("redstar 在学习java");
+        System.out.println("Honson 在学习java");
     }
 
     public void studyFE() {
-        System.out.println("redstar 在学习前端");
+        System.out.println("Honson 在学习前端");
     }
 }
 ```
@@ -56,15 +56,15 @@ public class Redstar {
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class RedstarTest {
+public class HonsonTest {
     public static void main(String[] args) {
-        Redstar redstar = new Redstar();
-        redstar.studyFE();
-        redstar.studyJava();
+        Honson Honson = new Honson();
+        Honson.studyFE();
+        Honson.studyJava();
     }
 }
 ```
-> 这时假设我们还想要学习Python那么我们则需要去修改Redstar这个类。这样写法是面向实现编程，因为整个Redstar类就是一个实现类。这个redstar类是要经常被修改的。也就拓展性比较差。我们这个RedstarTest类就是应用层（高层模块）的类是依赖于这个Redstar实现类（底层模块）的。因为我们没有抽象。根据依赖倒置原则高层次的模块不应该去依赖低层次的模块。每次Redstar拓展都要来RedstarTest进行补充。
+> 这时假设我们还想要学习Python那么我们则需要去修改Honson这个类。这样写法是面向实现编程，因为整个Honson类就是一个实现类。这个Honson类是要经常被修改的。也就拓展性比较差。我们这个HonsonTest类就是应用层（高层模块）的类是依赖于这个Honson实现类（底层模块）的。因为我们没有抽象。根据依赖倒置原则高层次的模块不应该去依赖低层次的模块。每次Honson拓展都要来HonsonTest进行补充。
 
 我们下面开始码具有依赖倒置的代码，首先创建一个接口。这个接口有个学习方法。
 ```java
@@ -86,7 +86,7 @@ public class JavaCourse implements ICourse {
 
     @Override
     public void studyCourse() {
-        System.out.println("redstar在学习Java课程");
+        System.out.println("Honson在学习Java课程");
     }
 }
 
@@ -96,12 +96,12 @@ public class JavaCourse implements ICourse {
 public class FECourse implements ICourse {
     @Override
     public void studyCourse() {
-        System.out.println("redstar在学习FE课程");
+        System.out.println("Honson在学习FE课程");
     }
 
 }
 ```
-此时我们将Redstar类修改为
+此时我们将Honson类修改为
 
 ```java
 /**
@@ -109,7 +109,7 @@ public class FECourse implements ICourse {
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class Redstar {
+public class Honson {
     public void studyJava(ICourse iCourse) {
         iCourse.studyCourse();
     }
@@ -124,23 +124,23 @@ Test类修改为
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class RedstarTest {
+public class HonsonTest {
     public static void main(String[] args) {
-        Redstar redstar = new Redstar();
-        redstar.studyJava(new JavaCourse());
-        redstar.studyJava(new FECourse());
+        Honson Honson = new Honson();
+        Honson.studyJava(new JavaCourse());
+        Honson.studyJava(new FECourse());
     }
 }
 ```
 输出结果为
 
 ```
-redstar在学习Java课程
-redstar在学习FE课程
+Honson在学习Java课程
+Honson在学习FE课程
 ```
 这时如果我们还有其他大的课程想要学习我们可以通过添加ICourse的实现类的方式来添加。
-Redstar这个类是不会去动他的。对于想要学习什么课程我们有RedstarTest类这高层类来自己选择。
-顺便提一下我们在RedstarTest类中使用接口方法的方式对ICourse接口的依赖进行注入。我们也可以使用构造器的方式对依赖进行注入。
+Honson这个类是不会去动他的。对于想要学习什么课程我们有HonsonTest类这高层类来自己选择。
+顺便提一下我们在HonsonTest类中使用接口方法的方式对ICourse接口的依赖进行注入。我们也可以使用构造器的方式对依赖进行注入。
 
 ```java
 /**
@@ -148,9 +148,9 @@ Redstar这个类是不会去动他的。对于想要学习什么课程我们有R
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class Redstar {
+public class Honson {
     private ICourse iCourse;
-    public Redstar(ICourse iCourse) {
+    public Honson(ICourse iCourse) {
         this.iCourse = iCourse;
     }
 
@@ -160,7 +160,7 @@ public class Redstar {
 }
 
 ```
-此时我们Redstar中就应该这么写
+此时我们Honson中就应该这么写
 
 ```java
 /**
@@ -168,19 +168,19 @@ public class Redstar {
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class RedstarTest {
+public class HonsonTest {
     public static void main(String[] args) {
         JavaCourse javaCourse = new JavaCourse();
         FECourse feCourse = new FECourse();
-        Redstar redstar = new Redstar(javaCourse);
-        redstar.studyJava();
-        redstar = new Redstar(feCourse);
-        redstar.studyJava();
+        Honson Honson = new Honson(javaCourse);
+        Honson.studyJava();
+        Honson = new Honson(feCourse);
+        Honson.studyJava();
     }
 }
 
 ```
-有构造器的方式同样我们也可以用set 的方式，此时我们的Redstar就要这么写了
+有构造器的方式同样我们也可以用set 的方式，此时我们的Honson就要这么写了
 
 ```java
 /**
@@ -188,7 +188,7 @@ public class RedstarTest {
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class Redstar {
+public class Honson {
     private ICourse iCourse;
 
     public void setiCourse(ICourse iCourse) {
@@ -201,7 +201,7 @@ public class Redstar {
 }
 
 ```
-对应的RedstarTest就要这么写了
+对应的HonsonTest就要这么写了
 
 
 ```java
@@ -210,15 +210,15 @@ public class Redstar {
  * @version 1.0.0
  * @date 2018/11/30
  */
-public class RedstarTest {
+public class HonsonTest {
     public static void main(String[] args) {
         JavaCourse javaCourse = new JavaCourse();
         FECourse feCourse = new FECourse();
-        Redstar redstar = new Redstar();
-        redstar.setiCourse(feCourse);
-        redstar.studyJava();
-        redstar.setiCourse(javaCourse);
-        redstar.studyJava();
+        Honson Honson = new Honson();
+        Honson.setiCourse(feCourse);
+        Honson.studyJava();
+        Honson.setiCourse(javaCourse);
+        Honson.studyJava();
     }
 }
 ```

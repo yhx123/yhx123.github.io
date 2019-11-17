@@ -3,7 +3,7 @@ layout:     post
 title:      " 饿汉式单例模式 "
 subtitle:   " 设计模式之单例模式 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - Design Patterns

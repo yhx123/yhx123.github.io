@@ -3,7 +3,7 @@ layout:     post
 title:      " java虚拟机的结构 "
 subtitle:   " java "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
  - java

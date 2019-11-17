@@ -3,7 +3,7 @@ layout:     post
 title:      " 迪米特法则 "
 subtitle:   " 软件开发原则之迪米特法则 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - Design Patterns

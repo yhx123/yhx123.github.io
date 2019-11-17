@@ -3,7 +3,7 @@ layout:     post
 title:      " MyBatis延迟加载 "
 subtitle:   " MyBatis延迟加载 "
 date:       2019-01-9 12:00:00
-author:     "redstar"
+author:     "Honson"
 header-img: ""
 tags:
     - mybatis
@@ -40,16 +40,16 @@ tags:
 <!--userMapper.xml-->
 
 ....
-<resultMap id="BaseResultMap" type="com.redstar.basemapper.pojo.User">
+<resultMap id="BaseResultMap" type="com.Honson.basemapper.pojo.User">
         <id column="id" jdbcType="VARCHAR" property="id"/>
         <result column="name" jdbcType="VARCHAR" property="name"/>
         <result column="age" jdbcType="INTEGER" property="age"/>
         <result column="role_id" jdbcType="INTEGER" property="roleId"/>
     </resultMap>
-    <resultMap id="userRoleMapSelect" type="com.redstar.basemapper.pojo.UserVo">
+    <resultMap id="userRoleMapSelect" type="com.Honson.basemapper.pojo.UserVo">
         <association property="user" resultMap="BaseResultMap"/>
         <association property="role" fetchType="lazy" column="{id=role_id}"
-                     select="com.redstar.basemapper.dao.RoleMapper.getRoleById"/>
+                     select="com.Honson.basemapper.dao.RoleMapper.getRoleById"/>
     </resultMap>
     <sql id="Base_Column_List">
     id, `name`, age, role_id
@@ -63,7 +63,7 @@ tags:
     
     <!--roleMapper.xml-->
 ...    
-    <resultMap id="BaseResultMap" type="com.redstar.basemapper.pojo.Role">
+    <resultMap id="BaseResultMap" type="com.Honson.basemapper.pojo.Role">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="role_name" jdbcType="VARCHAR" property="roleName" />
   </resultMap>
